@@ -1,7 +1,8 @@
-sudo apt update -y
-sudo apt install dante-server -y
+sudo apt update
+sudo apt install dante-server
 
-sudo rm /etc/danted.conf && wget https://github.com/Jaycawb97/monkeysock/blob/0d09e3f364a4ed0649706851101a741b8e7ef6c7/danted.conf -P /etc/
+sudo rm /etc/danted.conf
+wget https://github.com/Jaycawb97/monkeysock/blob/0d09e3f364a4ed0649706851101a741b8e7ef6c7/danted.conf -P /etc/
 
 sudo ufw allow 1080
 sudo ufw allow 22
